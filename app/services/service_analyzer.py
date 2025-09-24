@@ -3,7 +3,7 @@ from typing import Dict, Any, List
 import re
 import logging
 from app.services.feature_extractor import FeatureExtractor
-from app.services.model import ModelService
+from app.services.models import ModelService
 
 logger = logging.getLogger(__name__)
 

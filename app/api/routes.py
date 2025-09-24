@@ -2,7 +2,7 @@ from fastapi import APIRouter, HTTPException, UploadFile, File
 from pydantic import BaseModel, EmailStr
 from typing import Optional, Dict, Any
 import json
-from app.services.analyzer import PhishingAnalyzer
+from app.services.service_analyzer import PhishingAnalyzer
 from app.utils.email_parser import EmailParser
 from app.utils.validators import validate_email_data
 
