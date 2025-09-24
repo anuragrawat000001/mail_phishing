@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 import logging
 from app.api.routes import router
-from app.services.model import ModelService
+from app.services.models import ModelService
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
